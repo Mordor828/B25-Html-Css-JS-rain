@@ -9,6 +9,12 @@ box-sizing: border-box;
 
 }
 
+:root {
+--clr: #0f0;
+
+
+}
+
 body{
 display: flex;
 justify-content: center;
@@ -25,6 +31,17 @@ height: 400px;
 width: 100%;
 display: flex;
 justify-content: center;
+
+
+}
+
+.container .cloud h2 {
+
+position: absolute;
+transform: translateX(-50%);
+white-space: nowrap;
+color: var(--clr);
+
 
 
 }
