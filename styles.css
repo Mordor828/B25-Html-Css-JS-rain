@@ -32,15 +32,29 @@ width: 100%;
 display: flex;
 justify-content: center;
 
+}
+
+
+.container .cloud {
+
+position: relative;
+width: 100px;
+height: 300px;
+z-index: 100;
+
 
 }
+
+
+
 
 .container .cloud h2 {
 
 position: absolute;
+left: 50%;
 transform: translateX(-50%);
 white-space: nowrap;
-color: var(--clr);
+color: black;
 font-size: 2em;
 z-index: 1000;
 background: var(--clr);
