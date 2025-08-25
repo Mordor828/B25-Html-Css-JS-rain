@@ -41,6 +41,10 @@ position: absolute;
 transform: translateX(-50%);
 white-space: nowrap;
 color: var(--clr);
+font-size: 2em;
+z-index: 1000;
+background: var(--clr);
+
 
 
 
