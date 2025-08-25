@@ -41,6 +41,7 @@ position: relative;
 width: 100px;
 height: 300px;
 z-index: 100;
+filter: drop-shadow(0 0 35px var);
 
 
 }
