@@ -56,6 +56,9 @@ transform: translateX(-50%);
 white-space: nowrap;
 color: black;
 font-size: 2em;
+font-weight: 600;
+padding: 0 10px;
+border-radius: 10px;
 z-index: 1000;
 background: var(--clr);
 
