@@ -19,7 +19,7 @@ body{
 display: flex;
 justify-content: center;
 align-items: center;
-min-height: 100vh;
+min-height: 140vh;
 background: #000;
 
 
@@ -64,7 +64,17 @@ z-index: 1000;
 text-transform: uppercase;
 background: var(--clr);
 
+}
+.container .cloud h2::before
+{
 
-
+content: '';
+position: absolute;
+top:-115px;
+height: 100px;
+width: 120%;
+background: #0f0;
+transform:translateX(-50%);
+left: 50%;
 
 }
