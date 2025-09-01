@@ -76,5 +76,6 @@ width: 120%;
 background: #0f0;
 transform:translateX(-50%);
 left: 50%;
+border-radius: 100px;;
 
 }
