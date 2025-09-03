@@ -80,3 +80,14 @@ left: 50%;
 border-radius: 100px;;
 
 }
+.container .cloud h2::after 
+{
+content: '';
+position: absolute;
+width: 120px;
+height: 120px;
+border-radius: 50%;
+background:#0f0;
+
+
+}
